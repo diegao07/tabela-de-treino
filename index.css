@@ -25,7 +25,8 @@ h1{
     border-radius: 5%;
     background: black;
     opacity: 0.9;
-    margin-top: 30px;
+    margin-top: 5%;
+    
 }
 .dia {
     position: relative;
@@ -35,11 +36,11 @@ h1{
     width: 400%;
     height: 400px;
     border-radius: 5%;
-    margin: 30px;
+    margin: 15px;
     filter: blur(30%);
     background: white;
-    
-
+    text-decoration: none;
+    color: inherit;
 }
 @media screen and (max-width: 820px) {
     #semana {
@@ -48,8 +49,8 @@ h1{
 
     }
     .dia {
-        margin: 10%;
-        width: 80%;
+        margin: 5%;
+        width: 90%;
         height: 130px;
     }
   }
@@ -59,7 +60,7 @@ h1{
     position: absolute;
     left: 10px;
     top: 10px;
-    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
   }
 
   img {
